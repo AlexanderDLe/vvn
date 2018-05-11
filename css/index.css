@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  overflow-x: hidden; }
+
+body::-webkit-scrollbar {
+  background: rgba(0, 0, 0, 0.95); }
+
+body::-webkit-scrollbar-thumb {
+  background: #3c3c41;
+  border-radius: 12px; }
+
+nav {
+  color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 100;
+  padding-top: 15px; }
+
+nav ul {
+  margin: auto;
+  text-align: center; }
+
+.navLi {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 20px;
+  padding-top: 15px; }
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-family: Cinzel, sans-serif;
+  cursor: pointer; }
+
+nav a:hover {
+  color: white;
+  transition: all 0.15s ease-in-out; }
+
+.open-slide {
+  text-align: center;
+  display: none; }
+
+.mediaNav {
+  position: fixed;
+  top: 50px;
+  width: 100%; }
+
+.mediaNav li {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.95); }
+
+.toggleNav {
+  display: none;
+  transition: all 2s ease-in-out; }
+
+strong {
+  color: white; }
+
+.landingWrap {
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  background: url("../img/VVN Logo3.png") no-repeat center;
+  background-size: contain;
+  background-attachment: fixed; }
+
+.homeWrap {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative; }
+
+.homeWrap::after {
+  content: "";
+  background: url("../img/VVN Logo3.png") no-repeat center;
+  background-size: contain;
+  background-attachment: fixed;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.motto, .aboutWrap h1, .musicWrap h1, .ssWrap h1, .servicesWrap h1, .contactWrap h1 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  width: 100%;
+  font-family: Cinzel, sans-serif;
+  font-weight: lighter;
+  font-size: 2.4em;
+  padding-top: 80px;
+  letter-spacing: 3px; }
+
+.homeWrap iframe {
+  padding-top: 50px;
+  width: 50%; }
+
+.scPlayer {
+  text-align: center; }
+
+.homeImgBox {
+  padding-top: 50px; }
+
+.homeImgBox img {
+  object-fit: contain;
+  width: 33%;
+  max-height: 680px; }
+
+footer {
+  text-align: center;
+  padding-top: 50px; }
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 30px;
+  font-family: Cinzel, sans-serif; }
+
+footer img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+  margin-bottom: 25px; }
+
+.aboutWrap, .musicWrap, .ssWrap, .servicesWrap, .contactWrap {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.aboutWrap::after, .musicWrap::after, .ssWrap::after, .servicesWrap::after, .contactWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("../img/VVN Logo3.png") no-repeat center;
+  background-size: contain;
+  background-attachment: fixed;
+  opacity: 0.1; }
+
+.aboutContainer {
+  height: auto;
+  width: 1224px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 50px; }
+
+.self-picture, .aboutText {
+  height: 500px;
+  width: 500px; }
+
+.VVN-pic {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: 25px; }
+
+.aboutWrap h1 {
+  margin-top: 50px; }
+
+.aboutText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.125em;
+  line-height: 1.3; }
+
+.aboutText p {
+  padding: 10px;
+  font-family: Raleway; }
+
+button {
+  height: 45px;
+  width: 300px;
+  font-size: 0.8em;
+  background-color: RGBA(50, 50, 50, 0.5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 25px; }
+
+button:hover {
+  background-color: RGBA(50, 50, 50, 0.3); }
+
+.musicPlayer {
+  width: 500px;
+  height: 400px; }
+
+.musicContainer {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-bottom: 55px;
+  height: 90%; }
+
+.musicWrap h1 {
+  margin-bottom: 115px;
+  margin-top: 45px; }
+
+.ssContainer {
+  margin-top: 100px;
+  height: 90%; }
+
+.ss {
+  height: 83px;
+  width: 375px;
+  background-color: RGBA(30, 30, 30, 0.95);
+  margin: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-family: Raleway;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  cursor: pointer; }
+
+.ss:hover {
+  background-color: RGBA(15, 15, 15, 0.95);
+  transition: 0.125s ease-in-out; }
+
+.ss h2 {
+  border: white solid 1px;
+  padding: 10px 35px;
+  border-radius: 4px;
+  font-size: 0.8em; }
+
+.facebookDiv h2, .instagramDiv h2, .twitterDiv h2 {
+  padding: 10px 42px; }
+
+.iTunesDiv h2 {
+  padding: 10px 20px; }
+
+.ssWrap h1 {
+  margin-top: 40px; }
+
+.whiteArrow {
+  height: 40px;
+  width: 40px; }
+
+.arrow {
+  border-style: solid;
+  display: inline-block; }
+
+#arrow-right {
+  border-width: 7px 0px 7px 13px;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.95);
+  right: 0;
+  margin-right: 5px; }
+
+.servicesContainer {
+  height: 85%;
+  width: 1024px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Raleway;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.3; }
+
+.servicesWrap h1, .servicesContainer h2, .servicesContainer h3 {
+  margin: 15px 0; }
+
+.mixing-mastering {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 25px; }
+
+.mixingBox h3, .masteringBox h3 {
+  text-align: center; }
+
+.servicesBtn {
+  margin-top: 35px; }
+
+#delivery {
+  text-align: left; }
+
+.contactContainer h2 {
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 25px;
+  font-family: Cinzel; }
+
+@media (max-width: 1024px) {
+  .normalNav {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.95); }
+
+  .open-slide {
+    display: block;
+    padding-top: 30px; }
+
+  .homeWrap iframe {
+    padding-top: 50px;
+    width: 500px; }
+
+  .aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; }
+
+  .aboutText {
+    height: 350px;
+    width: 100%;
+    padding-bottom: 20px; }
+
+  .self-picture {
+    height: 350px;
+    width: 350px; }
+
+  .aboutContainer {
+    height: auto;
+    width: 100%; }
+
+  .aboutWrap, .musicWrap {
+    height: auto; }
+
+  .musicContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-around;
+    height: 90vh;
+    margin-bottom: 0px; }
+
+  .musicWrap h1 {
+    margin-bottom: 0px; }
+
+  .servicesWrap h1 {
+    margin-top: 180px; }
+
+  .servicesContainer {
+    height: auto;
+    width: 80%; }
+
+  .mixing-mastering {
+    display: flex;
+    flex-direction: column; } }
+@media (max-width: 500px) {
+  .homeWrap iframe {
+    width: 100%; }
+
+  .musicPlayer {
+    width: 100%; }
+
+  .servicesWrap h1 {
+    margin-top: 350px; } }
+@media (max-width: 450px) {
+  .homeWrap iframe {
+    width: 100%; }
+
+  .musicPlayer {
+    width: 100%; }
+
+  .servicesWrap h1 {
+    margin-top: 450px; } }
+@media (max-width: 680px) {
+  .aboutContainer {
+    padding: 0px; }
+
+  .aboutText {
+    height: auto; }
+
+  .VVN-pic {
+    margin-left: 0px; }
+
+  .servicesContainer {
+    width: 100%; }
+
+  .servicesWrap h1 {
+    margin-top: 250px; }
+
+  .servicesWrap ul {
+    margin-left: 25px; } }
+@media (min-width: 1500px) {
+  .homeWrap iframe {
+    width: 750px; }
+
+  .musicPlayer {
+    width: 650px;
+    height: 400px; } }
+@media (max-width: 1224px) and (min-width: 1024px) {
+  .aboutContainer {
+    height: auto;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 20px; }
+
+  .VVN-pic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px; }
+
+  .self-picture, .aboutText {
+    height: 450px;
+    width: 450px; } }
+@media (max-width: 1780px) {
+  .musicPlayer {
+    width: 400px;
+    height: 400px; } }
+@media (max-width: 1780px) {
+  .musicPlayer {
+    width: 475px;
+    height: 400px; }
+
+  .musicContainer {
+    width: 95%; } }
+
+/*# sourceMappingURL=index.css.map */
