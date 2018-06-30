@@ -1,0 +1,30 @@
+{
+  "name": "vvn",
+  "version": "1.0.0",
+  "description": "VVN Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "div": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderDLe/vvn.git"
+  },
+  "author": "Xan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderDLe/vvn/issues"
+  },
+  "homepage": "https://github.com/AlexanderDLe/vvn#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.17.5",
+    "validator": "^10.4.0"
+  }
+}

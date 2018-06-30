@@ -54,7 +54,7 @@ export default class Contact extends Component {
                 <Input
                   type="text"
                   name="name"
-                  className="form-control"
+                  className=""
                   placeholder="Name"
                   value={this.state.name}
                   onChange={this.onChange}
