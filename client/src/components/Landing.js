@@ -13,7 +13,7 @@ export default () => {
         </h1>
         <div class="container text-center">
           <iframe
-            className="scPlayer"
+            className="scPlayer shadow"
             scrolling="no"
             frameborder="no"
             allow="autoplay"
