@@ -105,7 +105,7 @@ export default () => {
             <div id="collapse4" class="collapse" data-parent="#accordion">
               <div class="card-body text-light">
                 Need a website? Let me build one for you! I develop all kinds -
-                ranging from artist pages to sites for businesses. Expand your
+                ranging from artist pages to modern enterprise. Expand your
                 online presence and connect with people!
                 <br />
                 <br />
