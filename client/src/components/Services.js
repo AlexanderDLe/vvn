@@ -78,8 +78,8 @@ export default () => {
 
             <div id="collapse3" class="collapse" data-parent="#accordion">
               <div class="card-body text-light">
-                Mastering focuses on crafting a stereo file to produce the best
-                possible version.
+                Mastering focuses on crafting an entire stereo file to produce
+                the best possible version.
                 <br />
                 <br />
                 <div className="text-center">Requirements:</div>

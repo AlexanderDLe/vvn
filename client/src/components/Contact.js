@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Input, Button } from 'reactstrap';
-// import classnames from 'classnames';
 import axios from 'axios';
+import classnames from 'classnames';
 
 export default class Contact extends Component {
   constructor(props) {
@@ -11,30 +11,40 @@ export default class Contact extends Component {
       name: '',
       email: '',
       message: '',
-      errors: {}
+      errors: {},
+      success: ''
     };
 
-    this.onChange = this.onChange.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  onChange(e) {
+  handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
   }
 
-  onSubmit(e) {
+  handleSubmit(e) {
     e.preventDefault();
+
     const { name, email, message } = this.state;
+
     const emailData = { name, email, message };
 
     axios
-      .post('/contact', emailData)
-      .then(() => console.log('Success'))
+      .post('/', emailData)
+      .then(
+        this.setState({
+          name: '',
+          email: '',
+          message: '',
+          success: 'Your message has been sent'
+        })
+      )
       .catch(err => this.setState({ errors: err.response.data }));
   }
 
   render() {
-    // const { errors } = this.state;
+    const { errors } = this.state;
 
     return (
       <div>
@@ -44,7 +54,11 @@ export default class Contact extends Component {
 
         <div className="wrap centerContent ">
           <div className="container">
-            <Form onSubmit={this.onSubmit} className="justify-content-center">
+            <Form
+              noValidate
+              onSubmit={this.handleSubmit}
+              className="justify-content-center"
+            >
               <FormGroup className="input-group input-group-lg mb-3">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
@@ -54,11 +68,16 @@ export default class Contact extends Component {
                 <Input
                   type="text"
                   name="name"
-                  className=""
+                  className={classnames('form-control', {
+                    'is-invalid': errors.name
+                  })}
                   placeholder="Name"
                   value={this.state.name}
-                  onChange={this.onChange}
+                  onChange={this.handleChange}
                 />
+                {errors.name && (
+                  <div className="invalid-feedback">{errors.name}</div>
+                )}
               </FormGroup>
 
               <FormGroup className="input-group input-group-lg mb-3">
@@ -70,11 +89,16 @@ export default class Contact extends Component {
                 <Input
                   type="text"
                   name="email"
-                  className="form-control"
+                  className={classnames('form-control', {
+                    'is-invalid': errors.email
+                  })}
                   placeholder="Email"
                   value={this.state.email}
-                  onChange={this.onChange}
+                  onChange={this.handleChange}
                 />
+                {errors.email && (
+                  <div className="invalid-feedback">{errors.email}</div>
+                )}
               </FormGroup>
 
               <FormGroup className="input-group input-group-lg mb-3">
@@ -86,12 +110,17 @@ export default class Contact extends Component {
                 <Input
                   type="textarea"
                   name="message"
-                  className="form-control"
+                  className={classnames('form-control', {
+                    'is-invalid': errors.message
+                  })}
                   placeholder="Message"
                   value={this.state.message}
-                  onChange={this.onChange}
+                  onChange={this.handleChange}
                   rows="5"
                 />
+                {errors.message && (
+                  <div className="invalid-feedback">{errors.message}</div>
+                )}
               </FormGroup>
 
               <Button className="contactButton text-center m-auto">
