@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 export default () => {
   return (
     <div>
-      <div className="wrapTitle centerContent">
+      <div className="wrapTitle centerContent anim">
         <h1 className="cinzel text-center pageTitle text-light ">About</h1>
       </div>
 
       <div className="wrap centerContent">
-        <div className="container">
+        <div className="container anim">
           <div className="row text-center">
             <div className="col-xl-6">
               <img src={VVNPic} alt="" className="VVNPic" />

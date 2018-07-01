@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Validation for checking email inputs
 const validateEmailInput = require('./validation/EmailValidation');
 
-app.post('/', (req, res) => {
+app.post('/contact', (req, res) => {
   const { errors, isValid } = validateEmailInput(req.body);
 
   if (!isValid) {
@@ -49,7 +49,7 @@ app.post('/', (req, res) => {
       if (err) {
         res.render('Error');
       } else {
-        res.render('Success');
+        res.json({ success: 'Your message has been sent!' });
       }
     });
   });

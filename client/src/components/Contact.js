@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Form, FormGroup, Input, Button } from 'reactstrap';
 import axios from 'axios';
 import classnames from 'classnames';
+import Spinner from './Spinner';
 
 export default class Contact extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ export default class Contact extends Component {
       email: '',
       message: '',
       errors: {},
-      success: ''
+      success: '',
+      loading: false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -31,29 +33,40 @@ export default class Contact extends Component {
     const emailData = { name, email, message };
 
     axios
-      .post('/', emailData)
-      .then(
+      .post('/contact', emailData)
+      .then(this.setState({ loading: true }))
+      .then(res => {
+        if (res) {
+          this.setState({
+            name: '',
+            email: '',
+            message: '',
+            errors: {},
+            success: 'Your message has been sent!',
+            loading: false
+          });
+        }
+      })
+      .catch(err =>
         this.setState({
-          name: '',
-          email: '',
-          message: '',
-          success: 'Your message has been sent'
+          errors: err.response.data,
+          success: '',
+          loading: false
         })
-      )
-      .catch(err => this.setState({ errors: err.response.data }));
+      );
   }
 
   render() {
-    const { errors } = this.state;
+    const { errors, success } = this.state;
 
     return (
       <div>
-        <div className="wrapTitle centerContent">
+        <div className="wrapTitle centerContent anim">
           <h1 className="cinzel text-center pageTitle text-light ">Contact</h1>
         </div>
 
-        <div className="wrap centerContent ">
-          <div className="container">
+        <div className="wrap centerContent">
+          <div className="container anim">
             <Form
               noValidate
               onSubmit={this.handleSubmit}
@@ -76,7 +89,7 @@ export default class Contact extends Component {
                   onChange={this.handleChange}
                 />
                 {errors.name && (
-                  <div className="invalid-feedback">{errors.name}</div>
+                  <div className="invalid-feedback lead">{errors.name}</div>
                 )}
               </FormGroup>
 
@@ -97,7 +110,7 @@ export default class Contact extends Component {
                   onChange={this.handleChange}
                 />
                 {errors.email && (
-                  <div className="invalid-feedback">{errors.email}</div>
+                  <div className="invalid-feedback lead">{errors.email}</div>
                 )}
               </FormGroup>
 
@@ -119,9 +132,15 @@ export default class Contact extends Component {
                   rows="5"
                 />
                 {errors.message && (
-                  <div className="invalid-feedback">{errors.message}</div>
+                  <div className="invalid-feedback lead">{errors.message}</div>
                 )}
               </FormGroup>
+
+              {success && (
+                <div className="lead pb-3 text-success ">{success}</div>
+              )}
+
+              {this.state.loading ? <Spinner /> : ''}
 
               <Button className="contactButton text-center m-auto">
                 SUBMIT

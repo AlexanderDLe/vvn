@@ -11,7 +11,7 @@ export default () => {
         <h1 className="cinzel text-center text-light motto">
           Designed with heart, created to beat.
         </h1>
-        <div class="container text-center">
+        <div className="container text-center">
           <iframe
             className="scPlayer shadow"
             scrolling="no"
