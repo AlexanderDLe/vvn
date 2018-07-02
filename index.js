@@ -34,14 +34,14 @@ app.post('/contact', (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: 'iamxanofficial@gmail.com',
+        user: 'lambadaboba@gmail.com',
         pass: key.pw
       }
     });
 
     let mailOptions = {
       from: req.body.email,
-      to: 'iamxanofficial@gmail.com',
+      to: 'lambadaboba@gmail.com',
       subject: 'New Message',
       text: req.body.message,
       html: htmlEmail

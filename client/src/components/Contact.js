@@ -62,7 +62,9 @@ export default class Contact extends Component {
     return (
       <div>
         <div className="wrapTitle centerContent anim">
-          <h1 className="cinzel text-center pageTitle text-light ">Contact</h1>
+          <h1 className="cinzel text-center pageTitle text-light ">
+            Contact11
+          </h1>
         </div>
 
         <div className="wrap centerContent">
