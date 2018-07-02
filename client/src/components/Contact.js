@@ -34,7 +34,7 @@ export default class Contact extends Component {
 
     axios
       .post('/contact', emailData)
-      .then(this.setState({ loading: true }))
+      .then(this.setState({ loading: true, success: '' }))
       .then(res => {
         if (res) {
           this.setState({
