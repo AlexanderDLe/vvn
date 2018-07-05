@@ -30,18 +30,18 @@ app.post('/contact', (req, res) => {
     `;
 
     let transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
-      port: 465,
+      host: 'smtp.office365.com',
+      port: 587,
       secure: true,
       auth: {
-        user: 'lambadaboba@gmail.com',
+        user: 'contact@vvnzquan.com',
         pass: key.pw
       }
     });
 
     let mailOptions = {
       from: req.body.email,
-      to: 'lambadaboba@gmail.com',
+      to: 'contact@vvnzquan.com',
       subject: 'New Message',
       text: req.body.message,
       html: htmlEmail
