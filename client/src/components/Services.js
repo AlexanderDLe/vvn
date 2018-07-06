@@ -65,6 +65,12 @@ export default () => {
                   </li>
                   <li>Between - 3 db and - 6 db of headroom</li>
                   <li>Rough mix/demo of your work </li>
+                  <li>
+                    Each stem bounced from beginning to end of duration of the
+                    full project (for example, if your project is 3 minutes long
+                    and a vocal starts at 1:30, still have that that vocal
+                    exported from 0-3:00).{' '}
+                  </li>
                 </ul>
               </div>
             </div>
