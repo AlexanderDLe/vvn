@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import VVNLogo from './img/VVN Logo.webp';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <div className="background">
+            <img id="VVN-BG" src={VVNLogo} alt="" />
             <Route exact path="/" component={Landing} />
             <Route exact path="/about" component={About} />
             <Route exact path="/music" component={Music} />
