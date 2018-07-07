@@ -26,6 +26,7 @@
     "express": "^4.16.3",
     "nodemailer": "^4.6.7",
     "nodemon": "^1.17.5",
+    "sqreen": "^1.20.2",
     "validator": "^10.4.0"
   }
 }
