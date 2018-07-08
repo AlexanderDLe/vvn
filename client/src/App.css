@@ -363,4 +363,9 @@ footer a img {
     height: 180px;
     position: relative;
   }
+  h5,
+  .accordianTitle {
+    font-size: 1.3rem;
+    font-family: Montserrat;
+  }
 }
