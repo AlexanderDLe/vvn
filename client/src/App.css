@@ -329,3 +329,38 @@ footer a img {
     opacity: 1;
   }
 }
+
+@media (max-width: 392px) {
+  .ss {
+    height: 78px;
+    width: 310px;
+    margin: 1px;
+  }
+
+  .ss h2 {
+    border: #f8f9fa solid 1px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-size: 0.8em;
+  }
+
+  .facebookDiv h2,
+  .instagramDiv h2,
+  .twitterDiv h2 {
+    padding: 10px 42px;
+  }
+
+  .iTunesDiv h2 {
+    padding: 10px 20px;
+  }
+
+  .ssWrap h1 {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 351px) {
+  .ssTitle {
+    height: 180px;
+    position: relative;
+  }
+}

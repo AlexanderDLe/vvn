@@ -10,9 +10,9 @@ import tIcon from '../img/twitter img.webp';
 export default () => {
   return (
     <div>
-      <div className="wrapTitle centerContent anim">
+      <div className="wrapTitle centerContent anim ssTitle">
         <h1 className="cinzel text-center pageTitle text-light ">
-          Socials/Streams
+          Socials / Streams
         </h1>
       </div>
 
