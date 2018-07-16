@@ -1,7 +1,7 @@
 import React from 'react';
-import ANX from '../img/ANX.webp';
-import AIMH from '../img/AIMH.webp';
-import EGO from '../img/EGO.webp';
+import ANX from '../img/ANX.png';
+import AIMH from '../img/AIMH.png';
+import EGO from '../img/EGO.png';
 
 export default () => {
   return (

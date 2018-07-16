@@ -1,11 +1,11 @@
 import React from 'react';
-import scIcon from '../img/SC Icon2.webp';
-import spotifyIcon from '../img/Spotify img.webp';
-import ytIcon from '../img/Youtube img.webp';
-import itIcon from '../img/iTunes img.webp';
-import fbIcon from '../img/FB img.webp';
-import igIcon from '../img/instagram img.webp';
-import tIcon from '../img/twitter img.webp';
+import scIcon from '../img/SC Icon2.png';
+import spotifyIcon from '../img/Spotify img.png';
+import ytIcon from '../img/Youtube img.png';
+import itIcon from '../img/iTunes img.png';
+import fbIcon from '../img/FB img.png';
+import igIcon from '../img/instagram img.png';
+import tIcon from '../img/twitter img.png';
 
 export default () => {
   return (

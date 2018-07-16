@@ -1,5 +1,5 @@
 import React from 'react';
-import VVNPic from '../img/VVN Pic.webp';
+import VVNPic from '../img/VVN Pic.png';
 import Button from './Button';
 import { Link } from 'react-router-dom';
 

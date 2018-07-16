@@ -1,9 +1,9 @@
 import React from 'react';
-import fbIcon from '../img/FB Icon.webp';
-import igIcon from '../img/IG Icon.webp';
-import scIcon from '../img/SC Icon.webp';
-import tIcon from '../img/T Icon.webp';
-import ytIcon from '../img/YT Icon.webp';
+import fbIcon from '../img/FB Icon.png';
+import igIcon from '../img/IG Icon.png';
+import scIcon from '../img/SC Icon.png';
+import tIcon from '../img/T Icon.png';
+import ytIcon from '../img/YT Icon.png';
 
 export default () => {
   return (

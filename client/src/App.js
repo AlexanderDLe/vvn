@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-// import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import VVNLogo from './img/VVN Logo.webp';
+import VVNLogo from './img/VVN Logo.png';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
