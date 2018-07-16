@@ -7,7 +7,7 @@ export default () => {
   return (
     <div>
       <div className="wrapTitle centerContent anim">
-        <h1 className="cinzel text-center pageTitle text-light ">About</h1>
+        <h1 className="cinzel text-center pageTitle text-light ">About Test</h1>
       </div>
 
       <div className="wrap centerContent">

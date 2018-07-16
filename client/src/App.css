@@ -48,6 +48,8 @@ body::-webkit-scrollbar-thumb {
 .pageTitle {
   position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .wrap {
   min-height: calc(100vh - 255px);
