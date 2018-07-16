@@ -68,8 +68,8 @@ export default () => {
                   <li>
                     Each stem bounced from beginning to end of duration of the
                     full project (for example, if your project is 3 minutes long
-                    and a vocal starts at 1:30, still have that that vocal
-                    exported from 0-3:00).{' '}
+                    and a vocal starts at 1:30, still have that vocal exported
+                    from 0-3:00).{' '}
                   </li>
                 </ul>
               </div>

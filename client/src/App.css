@@ -5,6 +5,8 @@
 }
 html {
   height: 100%;
+  position: relative;
+  z-index: -11;
 }
 body {
   background-color: black;
