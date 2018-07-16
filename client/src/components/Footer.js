@@ -4,6 +4,7 @@ import igIcon from '../img/IG Icon.png';
 import scIcon from '../img/SC Icon.png';
 import tIcon from '../img/T Icon.png';
 import ytIcon from '../img/YT Icon.png';
+import SIcon from '../img/S Icon.png';
 
 export default () => {
   return (
@@ -47,6 +48,14 @@ export default () => {
         href="https://www.youtube.com/xanandvvn"
       >
         <img src={ytIcon} alt="" />
+      </a>
+      <a
+        className="icon"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://open.spotify.com/artist/7215FhQXuF7Ffdvt3Wkeea"
+      >
+        <img src={SIcon} alt="" />
       </a>
       <p className="cinzel">&copy; VVN </p>
     </footer>
