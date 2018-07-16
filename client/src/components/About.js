@@ -36,7 +36,7 @@ export default () => {
                 best from me.
               </p>
               <Link className="" to="/contact">
-                <Button title={'CONTACT@VVNZQUAN'} />
+                <Button title={'CONTACT@VVNZQUAN.COM'} />
               </Link>
             </div>
           </div>
