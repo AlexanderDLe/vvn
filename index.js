@@ -67,7 +67,6 @@ app.listen(PORT, () => {
 // Serve static assets if in production!
 
 if (process.env.NODE_ENV === 'production') {
-  // Set Static Folder
   app.use(express.static('client/build'));
 
   app.get('*', (req, res) => {

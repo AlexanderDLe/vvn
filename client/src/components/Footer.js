@@ -13,6 +13,22 @@ export default () => {
         className="icon"
         target="_blank"
         rel="noopener noreferrer"
+        href="https://soundcloud.com/vvnzquan"
+      >
+        <img src={scIcon} alt="" />
+      </a>
+      <a
+        className="icon"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://open.spotify.com/artist/7215FhQXuF7Ffdvt3Wkeea"
+      >
+        <img src={SIcon} alt="" />
+      </a>
+      <a
+        className="icon"
+        target="_blank"
+        rel="noopener noreferrer"
         href="https://www.facebook.com/VvnZQuan/"
       >
         <img src={fbIcon} alt="" />
@@ -25,14 +41,7 @@ export default () => {
       >
         <img src={igIcon} alt="" />
       </a>
-      <a
-        className="icon"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://soundcloud.com/vvnzquan"
-      >
-        <img src={scIcon} alt="" />
-      </a>
+
       <a
         className="icon"
         target="_blank"
@@ -49,14 +58,7 @@ export default () => {
       >
         <img src={ytIcon} alt="" />
       </a>
-      <a
-        className="icon"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://open.spotify.com/artist/7215FhQXuF7Ffdvt3Wkeea"
-      >
-        <img src={SIcon} alt="" />
-      </a>
+
       <p className="cinzel">&copy; VVN </p>
     </footer>
   );
