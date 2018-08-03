@@ -5,32 +5,21 @@ import { Navbar, Collapse, NavbarToggler, Nav, NavItem } from 'reactstrap';
 export default class Navigation extends React.Component {
   constructor(props) {
     super(props);
-
     this.toggle = this.toggle.bind(this);
-
     this.state = {
       isOpen: false
     };
   }
-
   toggle() {
     if (window.innerWidth <= 991) {
       this.setState({ isOpen: !this.state.isOpen });
     }
   }
-
   render() {
     return (
       <Navbar className="navbar navbar-expand-lg navbar-dark fixed-top mb-3">
         <div className="container">
           <NavbarToggler className="m-auto" onClick={this.toggle} />
-          {/* <button
-            className="navbar-toggler m-auto text-light"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-          >
-            <span className="navbar-toggler-icon" />
-          </button> */}
           <Collapse
             isOpen={this.state.isOpen}
             className="navbar-collapse"
