@@ -300,7 +300,20 @@ footer a img {
   width: 45px;
   opacity: 0.75;
 }
-
+@media (max-width: 450px) {
+  footer a img {
+    height: auto;
+    width: 40px;
+    opacity: 0.75;
+  }
+}
+@media (max-width: 400px) {
+  footer a img {
+    height: auto;
+    width: 30px;
+    opacity: 0.75;
+  }
+}
 /* MEDIA QUERIES */
 
 @media (min-width: 992px) {
@@ -323,7 +336,11 @@ footer a img {
     max-width: 1420px;
   }
 }
-
+@media (max-width: 400px) {
+  .contact-button {
+    font-size: 1.1rem;
+  }
+}
 /* TRANSITIONS */
 .anim {
   animation: anim 0.5s ease-out 0s 1;

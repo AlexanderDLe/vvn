@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import VVNLogo from './img/VVN Logo.png';
 
-import Navbar from './components/Navbar';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Navbar />
+          <Navigation />
           <div className="background">
             <img id="VVN-BG" src={VVNLogo} alt="" />
             <Route exact path="/" component={Landing} />
