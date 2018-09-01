@@ -9,6 +9,7 @@
 
 ### Features:
 - Fully responsive interface
+- Fast due to being a React SPA
 - Dark stylish design catered to artist tastes.
 - Full musical catalogue
 - A stream/hub page containing all available platforms for streaming/downloads
