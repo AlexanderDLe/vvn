@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alexanderdle.github.io/VVNSite/",
+  "homepage": "https://alexanderdle.github.io/VVNSite/",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "hoek": "^5.0.3",
