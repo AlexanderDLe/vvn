@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import VVNLogo from './img/VVN Logo.png';
 
 import Navigation from './components/Navigation';
@@ -15,9 +15,8 @@ import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <div className="App">
-          {' '}
           <Navigation />
           <div className="background">
             <img id="VVN-BG" src={VVNLogo} alt="" />
@@ -30,7 +29,7 @@ class App extends Component {
           </div>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
