@@ -8,6 +8,9 @@ html {
   position: relative;
   z-index: -11;
 }
+.btn-secondary {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
 body {
   background-color: black;
   overflow-x: hidden;
