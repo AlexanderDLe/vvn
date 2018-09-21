@@ -17,6 +17,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
+          {' '}
           <Navigation />
           <div className="background">
             <img id="VVN-BG" src={VVNLogo} alt="" />
