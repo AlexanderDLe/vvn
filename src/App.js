@@ -15,7 +15,7 @@ import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navigation />
           <div className="background">

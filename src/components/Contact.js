@@ -13,7 +13,7 @@ export default () => {
             Have any questions or comments? I would love to hear from you!
           </p>
           <p className="text-light  d-block">
-            Please email at vvnquan@gmail.com or DM!
+            Please email at vvnquan@gmail.com or DM.
           </p>
         </div>
       </div>
