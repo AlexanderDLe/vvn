@@ -1,5 +1,7 @@
 # VVN Site github repository.
 
+Current Build: http://xanofficial.com/vvn/
+
 ### Build Tools:
 
 - HTML/CSS/JavaScript
