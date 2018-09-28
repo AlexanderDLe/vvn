@@ -29,7 +29,7 @@ Code:
 
 ![streams](https://user-images.githubusercontent.com/37781362/46181632-d5e32800-c27b-11e8-9df0-ef4697d702e7.PNG)
 
-This page contains all available streams/download conveniently located in a single page. All links bring user to expected destination.
+This page contains all available streams/download conveniently located in a single page. All links bring the user to the expected destination.
 
 Code:
 
@@ -41,13 +41,13 @@ The code snippet is fairly straighforward with basic HTML and CSS. CSS Grid is u
 
 ![services](https://user-images.githubusercontent.com/37781362/46181974-c8c73880-c27d-11e8-8aa0-971f257c07a1.PNG)
 
-The services page features an accordian that divides the different services VVN offers.
+The services page features an accordian that divides the different services that VVN offers.
 
 Code Snippet:
 
 ![services code](https://user-images.githubusercontent.com/37781362/46182137-df21c400-c27e-11e8-98f8-6cb27ec95293.PNG)
 
-The code was implement via Bootstrap. Boostrap is quick, easy, and still allows for customization.
+The code was implement with the help of Bootstrap. Boostrap is quick, easy, and still allows for customizatiom.
 
 ## Development Notes:
 
