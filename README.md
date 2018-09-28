@@ -53,7 +53,7 @@ The code was implement via Bootstrap. Boostrap is quick, easy, and still allows 
 
 - Originally a contact page was created containing a contact form. This required a back-end that required a backend that utilized tools
   such as Node, Express, MongoDB, Nodemailer, etc. However, uploading an application that utilizes a back end system such as this on a
-  platform such as Heroku requires a monthly fee (there is a free alternative however there is a slow start-up that the artist wanted to bypass). The Artist chose instead to forego the contact form and instead host the now backend-less
-  website on Github Pages for free (not officially up yet).
+  platform such as Heroku requires a monthly fee (there is a free slower alternative, however, the artist decided against it). The Artist chose instead to forego the contact form and instead host the now backend-less
+  website on Github Pages for free.
 
 - I am a huge fan of using SASS/SCSS - however, I encountered an issue when trying to combine it with my use of React. There is an official work-around utlizing SASS-Chokidar, however, it did not work for me thus I chose to use plain CSS in my React projects. Although I really miss the efficient import feature of SCSS (Vanilla CSS has an import feature but it is not as efficient since it makes several requests), CSS still offers the ability to assign variables so it's not too bad. That said, I plan on trying SCSS with React again in the future.
