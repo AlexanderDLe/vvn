@@ -25,16 +25,31 @@ Code:
 
 ![music code](https://user-images.githubusercontent.com/37781362/46181715-45591780-c27c-11e8-90cb-1945138153b6.PNG)
 
-## Stream/Download Hub Page containing all available platforms for streaming/downloads
+## Stream/Download Hub Page
 
 ![streams](https://user-images.githubusercontent.com/37781362/46181632-d5e32800-c27b-11e8-9df0-ef4697d702e7.PNG)
 
-This page contains all available streams/download conveniently located in a single page. It was built and organized via Reactstrap rows and columns.
+This page contains all available streams/download conveniently located in a single page. All links bring user to expected destination.
 
-- Detailed about section written by artist
-- Services pages outlining available offerings
+Code:
 
-### Development Notes:
+![stream code](https://user-images.githubusercontent.com/37781362/46181918-5eae9380-c27d-11e8-9045-cbf285a97a96.PNG)
+
+The code snippet is fairly straighforward with basic HTML and CSS. CSS Grid is used to organize the build and transitions are used to give user feedback on hover.
+
+## Services Page
+
+![services](https://user-images.githubusercontent.com/37781362/46181974-c8c73880-c27d-11e8-8aa0-971f257c07a1.PNG)
+
+The services page features an accordian that divides the different services VVN offers.
+
+Code Snippet:
+
+![services code](https://user-images.githubusercontent.com/37781362/46182137-df21c400-c27e-11e8-98f8-6cb27ec95293.PNG)
+
+The code was implement via Bootstrap. Boostrap is quick, easy, and still allows for customization.
+
+## Development Notes:
 
 - Originally a contact page was created containing a contact form. This required a back-end that required a backend that utilized tools
   such as Node, Express, MongoDB, Nodemailer, etc. However, uploading an application that utilizes a back end system such as this on a
