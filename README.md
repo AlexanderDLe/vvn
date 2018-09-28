@@ -33,7 +33,7 @@ This page contains all available streams/download conveniently located in a sing
 
 Code:
 
-![stream code](https://user-images.githubusercontent.com/37781362/46181918-5eae9380-c27d-11e8-9045-cbf285a97a96.PNG)
+![stream code](https://user-images.githubusercontent.com/37781362/46185094-65dd9d80-c28d-11e8-89f3-84bf0584def4.PNG)
 
 The code snippet is fairly straighforward with basic HTML and CSS. CSS Grid is used to organize the build and transitions are used to give user feedback on hover.
 

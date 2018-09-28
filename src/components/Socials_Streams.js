@@ -10,23 +10,24 @@ import tIcon from '../img/twitter img.png';
 export default () => {
   return (
     <div>
-      <div className="wrapTitle centerContent anim ssTitle">
+      <div className="wrapTitle centerContent anim social-streamsTitle">
         <h1 className="cinzel text-center pageTitle text-light ">
           Socials / Streams
         </h1>
       </div>
 
       <div className="wrap centerContent">
-        <div className="ssContainer anim">
+        <div className="anim">
           <a
             href="https://soundcloud.com/vvnzquan"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="scDiv ss">
+            <div className="scDiv social-streams">
               <img src={scIcon} alt="" />
               <h2>
-                <div id="arrow-right" className="arrow" />PLAY
+                <div id="arrow-right" className="arrow" />
+                PLAY
               </h2>
             </div>
           </a>
@@ -36,10 +37,11 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="spotifyDiv ss">
+            <div className="spotifyDiv social-streams">
               <img src={spotifyIcon} alt="" />
               <h2>
-                <div id="arrow-right" className="arrow" />PLAY
+                <div id="arrow-right" className="arrow" />
+                PLAY
               </h2>
             </div>
           </a>
@@ -49,10 +51,11 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="youtubeDiv ss">
+            <div className="youtubeDiv social-streams">
               <img src={ytIcon} alt="" />
               <h2>
-                <div id="arrow-right" className="arrow" />PLAY
+                <div id="arrow-right" className="arrow" />
+                PLAY
               </h2>
             </div>
           </a>
@@ -61,7 +64,7 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="iTunesDiv ss">
+            <div className="iTunesDiv social-streams">
               <img src={itIcon} alt="" />
               <h2>DOWNLOAD</h2>
             </div>
@@ -72,7 +75,7 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="facebookDiv ss">
+            <div className="facebookDiv social-streams">
               <img src={fbIcon} alt="" />
               <h2>VIEW</h2>
             </div>
@@ -82,7 +85,7 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="instagramDiv ss">
+            <div className="instagramDiv social-streams">
               <img src={igIcon} alt="" />
               <h2>VIEW</h2>
             </div>
@@ -92,7 +95,7 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="twitterDiv ss">
+            <div className="twitterDiv social-streams">
               <img src={tIcon} alt="" />
               <h2>VIEW</h2>
             </div>
