@@ -2,7 +2,7 @@
 
 ![screenshot](https://user-images.githubusercontent.com/37781362/45939434-74733e80-bf87-11e8-9d92-5f4ffa399296.PNG)
 
-Current Build: http://xanofficial.com/vvn/
+Current Build: http://vvnzquan.com/
 
 ### Build Tools:
 
