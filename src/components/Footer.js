@@ -54,7 +54,7 @@ export default () => {
         className="icon"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.youtube.com/xanandvvn"
+        href="https://www.youtube.com/channel/UC5vk_SNXWaogpUEdasF7xvQ/featured"
       >
         <img src={ytIcon} alt="" />
       </a>
