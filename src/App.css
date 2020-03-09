@@ -1,276 +1,276 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html {
-  height: 100%;
-  position: relative;
-  z-index: -11;
+    height: 100%;
+    position: relative;
+    z-index: -11;
 }
 .btn-secondary {
-  border-color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 body {
-  background-color: black;
-  overflow-x: hidden;
-  position: relative;
-  padding-bottom: 105px;
-  z-index: -10;
+    background-color: black;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 105px;
+    z-index: -10;
 }
 body::-webkit-scrollbar {
-  background: black;
+    background: black;
 }
 body::-webkit-scrollbar-thumb {
-  background: rgb(60, 60, 65);
-  border-radius: 12px;
+    background: rgb(60, 60, 65);
+    border-radius: 12px;
 }
 .cinzel {
-  font-family: Cinzel, Helvetica, sans-serif;
+    font-family: Cinzel, Helvetica, sans-serif;
 }
 .text-light {
-  color: rgba(255, 255, 255, 0.75) !important;
+    color: rgba(255, 255, 255, 0.75) !important;
 }
 
 #VVN-BG {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -5;
-  object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -5;
+    object-fit: contain;
 }
 /* GENERAL */
 .wrapTitle {
-  height: 150px;
-  position: relative;
+    height: 150px;
+    position: relative;
 }
 .pageTitle {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .wrap {
-  min-height: calc(100vh - 255px);
-  background-color: rgba(0, 0, 0, 0.83);
+    min-height: calc(100vh - 255px);
+    background-color: rgba(0, 0, 0, 0.83);
 }
 .centerContent {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .button {
-  background-color: rgba(100, 100, 100, 0.3);
-  margin-bottom: 45px;
-  width: 100%;
-  font-size: 1.3rem;
-  font-family: Montserrat;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(100, 100, 100, 0.3);
+    margin-bottom: 45px;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: Montserrat;
+    transition: all 0.5s ease-in-out;
 }
 .button:hover {
-  background-color: rgba(100, 100, 100, 0.4);
-  letter-spacing: 2px;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(100, 100, 100, 0.4);
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
 }
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 /* NAV */
 .navbar-nav .nav-link {
-  font-size: 1.3rem;
-  cursor: pointer;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
-  padding: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
 }
 /* LANDING */
 .landing {
-  height: 100vh;
+    height: 100vh;
 }
 .landingContent {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .motto {
-  letter-spacing: 3px;
-  padding: 75px;
-  font-size: 2.5rem;
+    letter-spacing: 3px;
+    padding: 75px;
+    font-size: 2.5rem;
 }
 @media (max-width: 668px) {
-  .motto {
-    font-size: 2rem;
-  }
+    .motto {
+        font-size: 2rem;
+    }
 }
 @media (max-width: 505px) {
-  .motto {
-    font-size: 1.8rem;
-  }
+    .motto {
+        font-size: 1.8rem;
+    }
 }
 .scPlayer {
-  height: 500px;
-  width: 90%;
-  max-width: 650px;
-  margin-bottom: 100px;
+    height: 350px;
+    width: 90%;
+    max-width: 650px;
+    margin-bottom: 100px;
 }
 .imgBox img {
-  width: 33%;
-  max-height: 640px;
-  object-fit: contain;
-  margin-bottom: 50px;
+    width: 33%;
+    max-height: 640px;
+    object-fit: contain;
+    margin-bottom: 50px;
 }
 /* ABOUT */
 .VVNPic {
-  max-height: 450px;
-  max-width: 430px;
-  border-radius: 50%;
-  height: auto;
-  width: 100%;
-  object-fit: contain;
+    max-height: 450px;
+    max-width: 430px;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
 }
 .aboutText {
-  line-height: 1.5;
-  padding-top: 25px;
-  font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 25px;
+    font-size: 1rem;
 }
 /* social-streams */
 .social-streams {
-  height: 83px;
-  width: 375px;
-  background-color: RGBA(30, 30, 30, 0.95);
-  margin: 2px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  font-family: Raleway;
-  color: #f8f9fa;
-  font-weight: 100;
-  letter-spacing: 2px;
-  cursor: pointer;
+    height: 83px;
+    width: 375px;
+    background-color: RGBA(30, 30, 30, 0.95);
+    margin: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: Raleway;
+    color: #f8f9fa;
+    font-weight: 100;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
 .social-streams:hover {
-  background-color: RGBA(15, 15, 15, 0.95);
-  transition: 0.125s ease-in-out;
+    background-color: RGBA(15, 15, 15, 0.95);
+    transition: 0.125s ease-in-out;
 }
 .social-streams h2 {
-  border: #f8f9fa solid 1px;
-  padding: 10px 35px;
-  border-radius: 4px;
-  font-size: 0.8em;
+    border: #f8f9fa solid 1px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-size: 0.8em;
 }
 @-moz-document url-prefix() {
-  .social-streams h2 {
-    float: right;
-    -moz-float: right;
-  }
+    .social-streams h2 {
+        float: right;
+        -moz-float: right;
+    }
 }
 .facebookDiv h2,
 .instagramDiv h2,
 .twitterDiv h2 {
-  padding: 10px 42px;
+    padding: 10px 42px;
 }
 
 .iTunesDiv h2 {
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .social-streamsWrap h1 {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .whiteArrow {
-  height: 40px;
-  width: 40px;
+    height: 40px;
+    width: 40px;
 }
 
 .arrow {
-  border-style: solid;
-  display: inline-block;
+    border-style: solid;
+    display: inline-block;
 }
 
 #arrow-right {
-  border-width: 7px 0px 7px 13px;
-  border-color: transparent transparent transparent rgba(255, 255, 255, 0.95);
-  right: 0;
-  margin-right: 5px;
+    border-width: 7px 0px 7px 13px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.95);
+    right: 0;
+    margin-right: 5px;
 }
 
 .servicesContainer {
-  height: 85%;
-  width: 1024px;
-  color: rgba(255, 255, 255, 0.8);
-  font-family: Raleway;
-  font-weight: 100;
-  text-align: center;
-  line-height: 1.3;
+    height: 85%;
+    width: 1024px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Raleway;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.3;
 }
 /* SERVICE */
 
 .card {
-  background-color: rgba(50, 50, 50, 0.3);
+    background-color: rgba(50, 50, 50, 0.3);
 }
 .card-body {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 h5,
 .accordianTitle {
-  width: 100%;
-  font-size: 1.5rem;
-  font-family: Montserrat;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: Montserrat;
 }
 .card-header {
-  background-color: rgba(100, 100, 100, 0.18);
-  width: 100%;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(100, 100, 100, 0.18);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
 }
 
 .card-header:hover {
-  background-color: rgba(100, 100, 100, 0.3);
-  letter-spacing: 2px;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(100, 100, 100, 0.3);
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
 }
 /* CONTACT */
 
 form {
-  max-width: 767px;
-  margin: auto;
+    max-width: 767px;
+    margin: auto;
 }
 .contactButton {
-  background-color: rgba(80, 80, 80, 0.5);
-  border: none;
-  font-size: 1.5rem;
-  font-family: Montserrat;
-  width: 100%;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(80, 80, 80, 0.5);
+    border: none;
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
 }
 .contactButton:hover {
-  background-color: rgba(80, 80, 80, 0.7);
-  letter-spacing: 2px;
-  transition: all 0.5s ease-in-out;
+    background-color: rgba(80, 80, 80, 0.7);
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
 }
 .spinner {
-  height: auto;
-  width: 45px;
-  margin: auto;
-  display: block;
-  margin-bottom: 15px;
+    height: auto;
+    width: 45px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
 }
 .input-group-text,
 .form-control {
-  color: #f8f9fa;
-  border: none;
-  background-color: rgba(80, 80, 80, 0.35);
+    color: #f8f9fa;
+    border: none;
+    background-color: rgba(80, 80, 80, 0.35);
 }
 .input-group-text:enabled,
 .form-control:enabled {
-  color: #f8f9fa;
-  border: none;
-  background-color: rgba(80, 80, 80, 0.35) !important;
+    color: #f8f9fa;
+    border: none;
+    background-color: rgba(80, 80, 80, 0.35) !important;
 }
 /* Change Autocomplete styles in Chrome*/
 input:-webkit-autofill,
@@ -280,120 +280,120 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  /* border: 1px solid green; */
-  -webkit-text-fill-color: #f8f9fa;
-  -webkit-box-shadow: 0 0 0px 1000px rgba(80, 80, 80, 0) inset;
-  box-shadow: 0 0 0px 1000px rgba(80, 80, 80, 0) inset;
-  transition: background-color 5000s ease-in-out 0s;
+    /* border: 1px solid green; */
+    -webkit-text-fill-color: #f8f9fa;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(80, 80, 80, 0) inset;
+    box-shadow: 0 0 0px 1000px rgba(80, 80, 80, 0) inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 /* FOOTER */
 footer {
-  padding-top: 50px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 150px;
+    padding-top: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
 }
 .icon {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 footer a img {
-  height: auto;
-  width: 45px;
-  opacity: 0.75;
+    height: auto;
+    width: 45px;
+    opacity: 0.75;
 }
 @media (max-width: 450px) {
-  footer a img {
-    height: auto;
-    width: 40px;
-    opacity: 0.75;
-  }
+    footer a img {
+        height: auto;
+        width: 40px;
+        opacity: 0.75;
+    }
 }
 @media (max-width: 400px) {
-  footer a img {
-    height: auto;
-    width: 30px;
-    opacity: 0.75;
-  }
+    footer a img {
+        height: auto;
+        width: 30px;
+        opacity: 0.75;
+    }
 }
 /* MEDIA QUERIES */
 
 @media (min-width: 992px) {
-  .card-body {
-    padding: 50px;
-  }
+    .card-body {
+        padding: 50px;
+    }
 }
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+    .container {
+        max-width: 1140px;
+    }
 }
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1280px;
-  }
+    .container {
+        max-width: 1280px;
+    }
 }
 @media (min-width: 1440px) {
-  .container {
-    max-width: 1420px;
-  }
+    .container {
+        max-width: 1420px;
+    }
 }
 @media (max-width: 400px) {
-  .contact-button {
-    font-size: 1.1rem;
-  }
+    .contact-button {
+        font-size: 1.1rem;
+    }
 }
 /* TRANSITIONS */
 .anim {
-  animation: anim 0.5s ease-out 0s 1;
+    animation: anim 0.5s ease-out 0s 1;
 }
 
 @keyframes anim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 392px) {
-  .social-streams {
-    height: 78px;
-    width: 310px;
-    margin: 1px;
-  }
+    .social-streams {
+        height: 78px;
+        width: 310px;
+        margin: 1px;
+    }
 
-  .social-streams h2 {
-    border: #f8f9fa solid 1px;
-    padding: 10px 35px;
-    border-radius: 4px;
-    font-size: 0.8em;
-  }
+    .social-streams h2 {
+        border: #f8f9fa solid 1px;
+        padding: 10px 35px;
+        border-radius: 4px;
+        font-size: 0.8em;
+    }
 
-  .facebookDiv h2,
-  .instagramDiv h2,
-  .twitterDiv h2 {
-    padding: 10px 42px;
-  }
+    .facebookDiv h2,
+    .instagramDiv h2,
+    .twitterDiv h2 {
+        padding: 10px 42px;
+    }
 
-  .iTunesDiv h2 {
-    padding: 10px 20px;
-  }
+    .iTunesDiv h2 {
+        padding: 10px 20px;
+    }
 
-  .social-streamsWrap h1 {
-    margin-top: 40px;
-  }
+    .social-streamsWrap h1 {
+        margin-top: 40px;
+    }
 }
 @media (max-width: 351px) {
-  .social-streamsTitle {
-    height: 180px;
-    position: relative;
-  }
-  h5,
-  .accordianTitle {
-    font-size: 1.3rem;
-    font-family: Montserrat;
-  }
+    .social-streamsTitle {
+        height: 180px;
+        position: relative;
+    }
+    h5,
+    .accordianTitle {
+        font-size: 1.3rem;
+        font-family: Montserrat;
+    }
 }
