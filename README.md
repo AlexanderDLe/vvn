@@ -1,59 +1,68 @@
-# VVN Site github repository.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![screenshot](https://user-images.githubusercontent.com/37781362/45939434-74733e80-bf87-11e8-9d92-5f4ffa399296.PNG)
+## Available Scripts
 
-Current Build: http://vvnzquan.com/
+In the project directory, you can run:
 
-### Build Tools:
+### `npm start`
 
-- HTML/CSS/JavaScript
-- Bootstrap 4
-- React
-- Reactstrap for bootstrap integration within React
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Features:
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Full Musical Catalogue
+### `npm test`
 
-![music catalogue](https://user-images.githubusercontent.com/37781362/46181569-869cf780-c27b-11e8-904d-f7c4dee2a5a4.PNG)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This site features the artist's music via embedded soundcloud playlists.
+### `npm run build`
 
-The code was easily implemented and offered by Soundcloud sharing.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Code:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-![music code](https://user-images.githubusercontent.com/37781362/46181715-45591780-c27c-11e8-90cb-1945138153b6.PNG)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Stream/Download Hub Page
+### `npm run eject`
 
-![streams](https://user-images.githubusercontent.com/37781362/46181632-d5e32800-c27b-11e8-9df0-ef4697d702e7.PNG)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This page contains all available streams/download conveniently located in a single page. All links bring the user to the expected destination.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Code:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-![stream code](https://user-images.githubusercontent.com/37781362/46185094-65dd9d80-c28d-11e8-89f3-84bf0584def4.PNG)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-The code snippet is fairly straighforward with basic HTML and CSS. CSS Grid is used to organize the build and transitions are used to give user feedback on hover.
+## Learn More
 
-## Services Page
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![services](https://user-images.githubusercontent.com/37781362/46181974-c8c73880-c27d-11e8-8aa0-971f257c07a1.PNG)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The services page features an accordian that divides the different services that VVN offers.
+### Code Splitting
 
-Code Snippet:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-![services code](https://user-images.githubusercontent.com/37781362/46182137-df21c400-c27e-11e8-98f8-6cb27ec95293.PNG)
+### Analyzing the Bundle Size
 
-The code was implement with the help of Bootstrap. Boostrap is quick, easy, and still allows for customizatiom.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Development Notes:
+### Making a Progressive Web App
 
-- Originally a contact page was created containing a contact form. This required a back-end that required a backend that utilized tools
-  such as Node, Express, MongoDB, Nodemailer, etc. However, uploading an application that utilizes a back end system such as this on a
-  platform such as Heroku requires a monthly fee (there is a free slower alternative, however, the artist decided against it). The Artist chose instead to forego the contact form and instead host the now backend-less
-  website on Github Pages for free.
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-- I am a huge fan of using SASS/SCSS - however, I encountered an issue when trying to combine it with my use of React. There is an official work-around utlizing SASS-Chokidar, however, it did not work for me thus I chose to use plain CSS in my React projects. Although I really miss the efficient import feature of SCSS (Vanilla CSS has an import feature but it is not as efficient since it makes several requests), CSS still offers the ability to assign variables so it's not too bad. That said, I plan on trying SCSS with React again in the future.
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
