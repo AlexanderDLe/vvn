@@ -47,4 +47,4 @@ Code Snippet:
 
 ![services code](https://user-images.githubusercontent.com/37781362/46182137-df21c400-c27e-11e8-98f8-6cb27ec95293.PNG)
 
-The code was implement with the help of Bootstrap. Boostrap is quick, easy, and still allows for customizatiom.
+The code was implement with the help of Bootstrap. Boostrap is quick, easy, and still allows for customization.
