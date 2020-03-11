@@ -65,17 +65,13 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
 }
 .button {
-    background-color: rgba(100, 100, 100, 0.3);
+    background-color: rgba(100, 100, 100, 0.15);
     margin-bottom: 45px;
-    width: 100%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: Montserrat;
-    transition: all 0.5s ease-in-out;
 }
 .button:hover {
-    background-color: rgba(100, 100, 100, 0.4);
-    letter-spacing: 2px;
-    transition: all 0.5s ease-in-out;
+    background-color: rgba(100, 100, 100, 0.25);
 }
 a {
     text-decoration: none !important;
@@ -139,7 +135,7 @@ a {
 }
 /* social-streams */
 .social-streams {
-    height: 83px;
+    height: 75px;
     width: 375px;
     background-color: RGBA(30, 30, 30, 0.95);
     margin: 2px;
@@ -153,6 +149,10 @@ a {
     letter-spacing: 2px;
     cursor: pointer;
 }
+.social-streams img {
+    height: auto;
+    width: 60%;
+}
 .social-streams:hover {
     background-color: RGBA(15, 15, 15, 0.95);
     transition: 0.125s ease-in-out;
@@ -160,7 +160,8 @@ a {
 .social-streams h2 {
     border: #f8f9fa solid 1px;
     padding: 10px 35px;
-    border-radius: 4px;
+    margin-top: 10px;
+    border-radius: 3px;
     font-size: 0.8em;
 }
 @-moz-document url-prefix() {
@@ -244,14 +245,11 @@ form {
     background-color: rgba(80, 80, 80, 0.5);
     border: none;
     font-size: 1.5rem;
+
     font-family: Montserrat;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
 }
 .contactButton:hover {
     background-color: rgba(80, 80, 80, 0.7);
-    letter-spacing: 2px;
-    transition: all 0.5s ease-in-out;
 }
 .spinner {
     height: auto;
@@ -300,7 +298,7 @@ footer {
 }
 footer a img {
     height: auto;
-    width: 45px;
+    width: 35px;
     opacity: 0.75;
 }
 @media (max-width: 450px) {

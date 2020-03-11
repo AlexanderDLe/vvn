@@ -41,7 +41,7 @@ export default () => {
                                 the best from me.
                             </p>
                             <Link className="" to="/contact">
-                                <Button title={'CONTACT@VVNZQUAN.COM'} />
+                                <Button title={'Get In Touch'} />
                             </Link>
                         </div>
                     </div>
